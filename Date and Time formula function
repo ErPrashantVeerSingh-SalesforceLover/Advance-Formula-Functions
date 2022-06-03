@@ -1,0 +1,23 @@
+	
+				1. AddMonth()
+				                return date
+								1-Jan 12-dec 
+								
+				2. Date()
+				          Date(yyyy,mm,dd)
+						  
+				3. DateValue()
+				
+				4. DateTimeValue()     
+				5. DAY():   return type number
+				6. TimeValue()
+				7. HOUR()
+				8. MILLISECOND()        0 -999
+				9. MINUTE()             0-60
+				10. Month               1-12
+				11. NOW()
+				12. SECOND()
+				13. TIMENOW()
+				14. TODAY()
+				15. WEEKDAY
+				16. YEAR()
