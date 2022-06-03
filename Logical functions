@@ -1,0 +1,21 @@
+        1. AND   (&&)  							1  AND 1=1
+														        1  AND 0 = 0
+														        0AND 1=0
+														        0AND0=0
+									                  returns a true response if all values are TRUE else False
+				2. IF
+				
+				IF( AnnualRevenue   =  200  &&   TEXT(Active__c) ='Yes', 100, 101)
+				
+				3. ISBLANK       ISBLANK(  Fax )
+				
+				4. ISNULL
+				
+				5. ISNUMBER
+				
+				6. NOT
+				
+				7. OR                1 OR 0=1
+        
+        
+        Complete Explanation in Hindi: https://www.youtube.com/watch?v=JIzxHKBiWvQ
