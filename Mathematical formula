@@ -1,0 +1,28 @@
+        1. ABS  absolute        +ve/-ve 
+				                        +123    = 123
+										            -1223  = 1223
+										            return type: number
+										
+										
+				2. Ceiling          						
+										
+				3. Distance          Ghaziabad 						Shimla kms/mi
+				                     Distance(myLocation1,mylocation2, 'unit')
+									 Distance(Home,Destination,'km')
+									 
+		        4. GEOLOCATION
+				
+				5. LN              logarithm
+				                   
+				6. LOG          
+				7. MAX 
+				8. MCELING  
+      			9. MFLOOR
+                10. min 
+				11. MOD        MOD(5,2)    =1
+				12. ROUND            2.9876        ROUND(2.9876,3) = 2.988
+				13. SQRT   
+        
+        
+        
+        Complete Explanation in Hindi: https://www.youtube.com/watch?v=6oz43FQLwBw
