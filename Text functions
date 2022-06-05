@@ -1,0 +1,22 @@
+         1. BEGINS()
+				           BEGINS(textfield,'Compare_Text')   => Return TRUE/False
+						       Case sensitive
+						 
+				2. BR()
+				3. CASESAFEID() 15 digits record id ==18digits
+				4. CONTAINS()
+				5. FIND()  return type number
+				6. ISPICKVAL()
+				7. LEFT()
+				8. LEN()
+				9. LOWER()
+				10. MID()
+				11. RIGHT()
+				12. SUBSTitue()
+				13. TEXT()
+				14. Value()
+				15. UPPER()
+				16. TRIM()
+        
+        Detail explaination:
+                           In Hindi: 
