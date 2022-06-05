@@ -1,27 +1,28 @@
-	
-				1. AddMonth()
-				                return date
-								1-Jan 12-dec 
-								
-				2. Date()
-				          Date(yyyy,mm,dd)
-						  
-				3. DateValue()
-				
-				4. DateTimeValue()     
-				5. DAY():   return type number
-				6. TimeValue()
-				7. HOUR()
-				8. MILLISECOND()        0 -999
-				9. MINUTE()             0-60
-				10. Month               1-12
-				11. NOW()
-				12. SECOND()
-				13. TIMENOW()
-				14. TODAY()
-				15. WEEKDAY
-				16. YEAR()
+		              						a. Date and Time functions				
+							
+							1. AddMonth():   Sept 22, 2022	   Result: Oct 22, 2022
+							                 
+								             june 30, 2022     Result: July 31, 2022
+											 
+											 
+							2. DATE():      
+							3. DATEVALUE():   winter'20 most accurate day light saving
+							4. DATETIMEVALUE(): 
+							5. DAY() will return day of the month  1,2,3,4,-----30,31
+							6. TIMEVALUE(): 
+							7. HOUR()
+							8. MINUTE()
+							9. SECOND()
+							10.MILLISECOND()
+							11.MONTH()      Jan-1  Feb-2       Dec-12
+							12.NOW():       NOW()+add days+N/24              N means hours               
+							                represents current date and time 
+							13.TIMENOW()    represent current time in GMT
+							14. TODAY()
+							15. WEEKDAY()     1 - 7
+							16. YEAR():
 
 
-
-Complete Explanation in Hindi: https://www.youtube.com/watch?v=Tip0Vj-Dso8
+Complete Explanations 
+		In Hindi: https://www.youtube.com/watch?v=Tip0Vj-Dso8
+		In English: 
