@@ -1,21 +1,17 @@
-        1. AND   (&&)  							1  AND 1=1
-														        1  AND 0 = 0
-														        0AND 1=0
-														        0AND0=0
-									                  returns a true response if all values are TRUE else False
-				2. IF
-				
-				IF( AnnualRevenue   =  200  &&   TEXT(Active__c) ='Yes', 100, 101)
-				
-				3. ISBLANK       ISBLANK(  Fax )
-				
-				4. ISNULL
-				
-				5. ISNUMBER
-				
-				6. NOT
-				
-				7. OR                1 OR 0=1
+                                                       1. AND()               &&
+							                    IF(LastActivityDate  <>  TODAY() && TEXT( Active__c)  = 'No', TRUE, FALSE)
+							2. IF()             IF(  AND(LastActivityDate  <>  TODAY(),  TEXT( Active__c)  = 'No')  , TRUE, FALSE)
+							3. OR()                  ||
+												 
+												IF(  OR(LastActivityDate  =  TODAY(),  TEXT( Active__c)  = 'No')  , TRUE, FALSE) 
+												 IF(LastActivityDate  =  TODAY() || TEXT( Active__c)  = 'No', TRUE, FALSE)
+							4. NOT()            NOT( LastActivityDate   <>  TODAY())
+							5. ISBLANK()        ISBLANK( Fax )
+							6. ISNULL()
+							7. ISNUMBER():      check if the value if number, if number returns TRUE else false
+							8. NULLVALUE(): 
+							                    NULLVALUE( AccountNumber , '987575')
+												will check the value if field has value, than will show same value else substitude
         
         
         Complete Explanation in Hindi: https://www.youtube.com/watch?v=JIzxHKBiWvQ
