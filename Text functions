@@ -1,22 +1,47 @@
-         1. BEGINS()
-				           BEGINS(textfield,'Compare_Text')   => Return TRUE/False
-						       Case sensitive
-						 
+                                1. BEGINS()
+				1. BEGINS():   BEGINS(textfield,'Compare_Text')   => Return TRUE/False
+					       Case sensitive	 
 				2. BR()
 				3. CASESAFEID() 15 digits record id ==18digits
 				4. CONTAINS()
 				5. FIND()  return type number
 				6. ISPICKVAL()
-				7. LEFT()
-				8. LEN()
-				9. LOWER()
-				10. MID()
-				11. RIGHT()
+				7. LEFT(): returns the specified numbers of characters from beginning (left side) of text string.
+			                        you can use either text expression or field.
+			                        LEFT("Prashant Veer Singh", 3) ==> Pra 
+				8. LEN(): returns the number of characters in specified text string.
+			                  give you the length of text string.
+					   1 space = 1 character
+					   LEN("Prashant Veer Singh")
+					   LEN(fieldAPI)
+				9. LOWER(): PRASHANT VEER SINGH   ==> prashant veer singh		   
+			                    LOWER("PRASHANT VEER SINGH")
+				            LOWER(fieldAPI)
+					    convert all letters into lowercase.
+				10. MID():  MID("Prashant Veer Singh",3 , 3)
+			                    Result: ash
+				11. RIGHT(): returns the specified number of characters from end (right hand side) of text string.
+			                     RIGHT("Prashant Veer Singh",8)
 				12. SUBSTitue()
-				13. TEXT()
-				14. Value()
-				15. UPPER()
+				13.TEXT(): TEXT( AnnualRevenue )    ==> will remove currency sign and value will be converted into text 
+                                            TEXT(picklist field type api)==> you will see the desired value.
+				14. VALUE(): convert text string into number
+                                              VALUE( Fax )
+					       VALUE("12345")
+				15. UPPER(): prashant veer singh    ==> PRASHANT VEER SINGH
+			                     UPPER("prashant veer singh")
+					     UPPER(fieldAPI)
 				16. TRIM()
+				17. SUBSTITUTE(): SUBSTITUTE("Salesforce Sales cloud", "Sales", "Service")  ==> Serviceforce Service cloud
+			                         SUBSTITUTE("Salesforce Experience cloud", "Experience", "Service")   ==> 	Salesforce Service cloud
+						 SUBSTITUTE( fieldAPI , "oldtext", "new text")
+                                                change old text string either from the expression or from fieldAPI with new one.
+				18. LPAD(): 
+				19: RPAD():
         
         Detail explaination:
-                           In Hindi: 
+                           In Hindi: Part1: https://www.youtube.com/watch?v=QKIv_Llad0U&list=PL3y3JMXmJvon5R9U8dnYkyAgPK106H-D8&index=18
+			             Part2: 
+				     
+		           In English: Part1: https://www.youtube.com/watch?v=hr607blA8Qw&list=PL3y3JMXmJvomjtS2DpOEfeoA6l_Ayc_hT&index=27
+			               Part2: https://www.youtube.com/watch?v=c80cBzdtzKQ&list=PL3y3JMXmJvomjtS2DpOEfeoA6l_Ayc_hT&index=28
