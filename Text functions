@@ -1,4 +1,4 @@
-                                1. BEGINS()
+                               
 				1. BEGINS():   BEGINS(textfield,'Compare_Text')   => Return TRUE/False
 					       Case sensitive	 
 				2. BR()
